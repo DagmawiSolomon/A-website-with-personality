@@ -1,0 +1,120 @@
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/959/960/939/texture-pattern-background-light-wallpaper-preview.jpg");
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+
+marquee{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav{
+    background-color: yellow;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding: 4px;
+}
+.item {
+      transition: transform 0.3s ease-in-out;
+    }
+.hero .right{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+    }
+.blog-card {
+    width: 300px;
+    border: 2px solid #000;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+    .right .blog-card:nth-child(1){
+        background-color: rebeccapurple;
+      
+    }
+    .right .blog-card:nth-child(2){
+        background-color: green;
+    }
+    .right .blog-card:nth-child(3){
+        background-color: violet;
+    }
+    .right .blog-card:nth-child(4){
+        background-color: aquamarine;
+    }
+    
+    .marquee{
+        display: flex;
+        gap: 3rem;
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: auto;
+    }
+
+   
+
+    .blog-card-content {
+      padding: 10px;
+    }
+
+    /* Styling for the horribly designed GIF */
+    .horrible-gif {
+      width: 100%;
+      height: auto;
+    }
+    .contactform form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactform form input:nth-child(1){
+        background-color: green;
+        color: blue;
+    } 
+    .contactform form input:nth-child(2){
+        background-color: blue;
+        color: green;
+    } 
+    .contactform form textarea{
+        background-color: red;
+        color: white;
+    } 
+    
+    .read-more{
+        background-color: aliceblue;
+        padding: 1rem;
+        border-radius: 5px;
+        margin: 1rem;
+    }
+    .popup {
+      position: absolute;
+      display: block;
+      top:5%;
+      background-color: transparent;
+      padding: 0;
+
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 4;
+      width: fit-content;
+      height: fit-content;
+      margin: auto;
+    }
+    .popup-container{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
